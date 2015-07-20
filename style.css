@@ -1,0 +1,27 @@
+.everything{
+	background-color: rgb(204,153,255);
+	text-align: center;
+	width:430px;
+	margin: 20px auto;
+	margin-left: auto;
+	margin-right: right;
+	
+}
+#background{
+	width:100%;
+	text-align:center;
+}
+
+#canvas{
+	background-color: rgb(88,25,155);
+	display:inline;
+}
+#scores{
+	background-color:white;
+	width:200px;
+	margin: 20px auto;
+	margin-left: auto;
+	margin-right: right;
+	/*width:100%;*/
+	text-align: center;
+}
