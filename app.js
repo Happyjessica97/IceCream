@@ -142,6 +142,7 @@ function Rounds(theLevel){
     }
   }
 };
+Rounds(firstlevel);
 function isTouchingSun(){
   for(var i = 0; i < xcoorSun.length; i++){
     if((playerCoors[0] < (xcoorSun[i] + size))&&((playerCoors[0] + size) > xcoorSun[i])&&(playerCoors[1] < (ycoorSun[i]+size))&&((size + playerCoors[1]) > ycoorSun[i])){
@@ -292,7 +293,7 @@ var movement = function(){
 
   };
 };
-Rounds(firstlevel);
+
 
 //countWins();
 function setWins(){
