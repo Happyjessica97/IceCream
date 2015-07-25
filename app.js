@@ -241,8 +241,8 @@ var movement = function(){
       }
   if(win()){
       document.getElementById("icecreamsong").pause();
-      //document.getElementById("icecreamsong").currentTime = 0;
-      //document.getElementById("youwon").play(); 
+      document.getElementById("icecreamsong").currentTime = 0;
+      document.getElementById("youwon").play(); 
       if(restartGame === false){
         countWins();
       }
