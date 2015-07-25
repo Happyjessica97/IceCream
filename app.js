@@ -55,6 +55,7 @@ var makeRandomCourse = function(){
   firstlevel[5] = movingfire;
   firstlevel[8] = wall2; 
   firstlevel[11] = end; 
+  console.log(wall1);
   console.log(end);
 };
 makeRandomCourse();
